@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="responsive_header_logo">
+          <a
+            href="https://store.steampowered.com/?snr=1_4_4__global-responsive-menu"
+          >
+            <img
+              src="https://store.cloudflare.steamstatic.com/public/shared/images/responsive/header_logo.png"
+              height="36"
+              alt="STEAM"
+            />
+          </a>
+        </div>
+
+        <div class="nav-link">
+          <li>Home</li>
+          <li>Trending</li>
+          <li>About us</li>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-left">
+        <div class="search-form">
+          <div class="search-box">
+            <input type="text" id="search-form" placeholder="search" />
+          </div>
+          <div id="search-link">
+            <img
+              id="search"
+              src="https://store.cloudflare.steamstatic.com/public/images/v6/search_icon_btn.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="category">
+          <ul class="category-group">
+            <li>Action</li>
+            <li>Casual</li>
+            <li>FPS</li>
+            <li>MMO</li>
+            <li>RPG</li>
+          </ul>
+        </div>
+      </div>
+      <div class="show-all">
+        <div id="title-game" >ALL GAME</div>
+        <div class="hidden" id="back"> ⮘⮘ Back</div>
+        <div class="move-display ">
+          <div class="previous move">
+            <span ">⮜⮜</span>
+            <span>Previous Page</span>
+          </div>
+          <h3 id="page-number">1</h3>
+          <div class="next move">
+            <span>Next Page</span>
+            <span >⮞⮞</span>
+          </div>
+        </div>
+        <div class="show-game" id="display"></div>
+      </div>
+    </main>
+
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
